@@ -38,8 +38,10 @@ plus a classification pipeline that systematically compares classifiers trained 
 <br>
 
 <div align="center">
-  <img src="docs/assets/accuracy_vs_size.png" width="48%" alt="Test accuracy vs training set size">
-  <img src="docs/assets/per_class_f1.png" width="48%" alt="Per-class F1 scores">
+  <img src="docs/assets/accuracy_vs_size.png" width="720" alt="Test accuracy vs training set size">
+  <p><em>Test accuracy vs. training set size</em></p>
+  <img src="docs/assets/per_class_f1.png" width="720" alt="Per-class F1 scores">
+  <p><em>Per-class F1 scores</em></p>
 </div>
 
 <br>
