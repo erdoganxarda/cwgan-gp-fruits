@@ -1,0 +1,31 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Editor / OS files
+.DS_Store
+.idea/
+.vscode/
+.ipynb_checkpoints/
+
+# Project outputs / artifacts (recommended to keep out of git)
+runs/
+data_synth/
+*.pt
+*.pth
+*.ckpt
+
+# Datasets (ignored by default; unignore only if you're sure you can redistribute)
+data_final/
+data_splits/
+
+# Build / packaging artifacts
+*.egg-info/
+dist/
+build/

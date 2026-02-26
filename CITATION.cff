@@ -1,0 +1,34 @@
+cff-version: 1.2.0
+message: "If you use this project in your work, please cite it as below."
+type: software
+title: "gan-image-gen: Conditional WGAN-GP for Synthetic Fruit Image Generation"
+authors:
+  - family-names: Erdogan
+    given-names: Arda
+repository-code: "https://github.com/ardaerdogan/gan-image-gen"
+license: MIT
+date-released: "2026-02-26"
+version: "1.0.0"
+abstract: >
+  A conditional Wasserstein GAN with Gradient Penalty (cWGAN-GP) for
+  generating synthetic 64×64 RGB fruit images (apple, banana, orange),
+  paired with a classification pipeline that systematically compares
+  classifiers trained on real data, synthetic data, and a combination
+  of both across five dataset sizes.
+keywords:
+  - generative-adversarial-networks
+  - wgan-gp
+  - conditional-gan
+  - synthetic-data
+  - image-generation
+  - pytorch
+references:
+  - type: article
+    title: "cGANs with Projection Discriminator"
+    authors:
+      - family-names: Miyato
+        given-names: Takeru
+      - family-names: Koyama
+        given-names: Masanori
+    year: 2018
+    url: "https://arxiv.org/abs/1802.05637"

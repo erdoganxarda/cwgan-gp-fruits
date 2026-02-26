@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "gan-image-gen"
+version = "1.0.0"
+description = "Conditional WGAN-GP for synthetic fruit image generation and real-vs-synthetic classifier evaluation"
+readme = "README.md"
+license = { file = "LICENSE" }
+authors = [{ name = "Arda Erdogan" }]
+requires-python = ">=3.11"
+dependencies = [
+    "numpy==2.4.2",
+    "scipy==1.17.1",
+    "matplotlib==3.10.8",
+    "scikit-learn==1.8.0",
+    "torch==2.10.0",
+    "torchvision==0.25.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
